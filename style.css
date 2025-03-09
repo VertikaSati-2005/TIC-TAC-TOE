@@ -1,0 +1,160 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #71FFEA;
+    text-align: center;
+}
+
+.container {
+    height: 70vh;
+    display: flex;
+
+
+    justify-content: center;
+    align-items: center;
+}
+
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center;
+    gap: 1.5vmin; 
+}
+
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border:none;
+    box-shadow:0 0 1rem rgba(1, 234, 255, 0.797);
+    font-size: 8vmin;
+    background-color: rgba(238, 255, 5, 0.889);
+    color: #b0413e;
+   
+}
+
+#reset-button{
+    
+    font-size: 5vmin;
+    color:black;
+    background-color: rgba(128, 255, 0, 0.722);
+    
+    border-radius:1rem;
+}
+
+#msg {
+    font-size: 8vmin;
+}
+
+#new-btn{
+      
+    font-size: 5vmin;
+    color:black;
+    background-color: rgba(128, 255, 0, 0.722);
+    
+    border-radius:1rem;
+
+
+}
+.hide{
+    display:none;
+}
+.box[innerText="0"] {
+    color: blue;
+}
+
+.box[innerText="X"] {
+    color: red;
+}
+
+/* Reset default styles */
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+    background-color: #666;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 2.5em;
+    color: #333;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.box:hover {
+    background-color: #f5f5f5;
+    transform: scale(1.05);
+}
+
+.box:active {
+    transform: scale(0.95);
+}
+
+
+@media (max-width: 400px) {
+    .game {
+        grid-template-columns: repeat(3, 80px);
+        padding: 8px;
+    }
+
+    .box {
+        width: 80px;
+        height: 80px;
+        font-size: 2em;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+} */
